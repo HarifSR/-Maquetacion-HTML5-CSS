@@ -6,3 +6,119 @@ body {
   background-color: #EEE;     /* Set background */
 }
 
+.Main {
+  background-color: #FFF;     /* Set white background */
+  border-radius: 5px;
+  overflow: hidden;
+  line-height: 30px;
+}
+
+.content {
+  width: 70%;
+  float: left;
+}
+
+
+.pageHeader nav {
+  background: #2BA6CB;                /* Fondo azul claro */
+  height: 40px;                       /* Altura de barra */
+  line-height: 40px;                  /* Centrado vertical de texto */
+  margin: 0 auto 30px auto;
+  border-radius: 5px;
+  -moz-border-radius: 5px;            /* Firefox */
+  -webkit-border-radius: 5px;         /* Safari/Chrome */
+}
+
+.pageHeader nav ul {
+  margin: 0 auto;
+}
+
+.pageHeader nav ul li {
+  float: left;
+  display: inline;                    /* Muestra horizontalmente */
+}
+
+.pageHeader nav a:link,
+.pageHeader nav a:visited {
+  color: #FFF;
+  display: inline-block;
+  height: 30px;
+  padding: 5px 23px;
+  text-decoration: none;
+}
+
+.pageHeader nav a:hover,
+.pageHeader nav a:active {
+  background: #2BA6CB;
+  color: #FFF;
+}
+
+.pageHeader nav .active a:link,
+.pageHeader nav .active a:visited {
+  background: #2795B6;                /* Azul más oscuro */
+  color: #FFF;
+}
+
+.Top {
+  margin-bottom: 3%;
+}
+
+
+.top-sidebar {
+  width: 20%;
+  float: left;
+  margin-left: 2%;
+  padding: 2% 3%;
+  margin-bottom: 2%;
+}
+
+.navigation {
+  display: block;
+  list-style-position: inside;
+  list-style-type: none;
+  margin: 0;
+  padding: 0.875em 0;
+}
+
+.navigation {
+  display: block;
+  list-style-position: inside;
+  list-style-type: none;
+  margin: 0;
+  padding: 0.875em 0;
+}
+
+.featured {
+  background: none repeat scroll 0 0 #F2F2F2;
+  border-color: #D9D9D9;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 1.25em;
+  padding: 1.25em;
+}
+
+.bottom-sidebar {
+  width: 20%;
+  float: left;
+  margin-left: 2%;
+  padding: 2% 3%;
+}
+
+.pageFooter {
+  width: 100%;
+  height: 40px;
+  line-height: 5px;
+  float: left;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #2BA6CB;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  color: #FFF;
+}
+
+.pageFooter p {
+  width: 90%;
+  margin: 2% auto;
+}
