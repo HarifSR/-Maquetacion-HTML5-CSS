@@ -135,7 +135,7 @@ body {
   font-family: 'Segoe UI', Tahoma, sans-serif;
   font-size: 18px;
   line-height: 1.8;
-  background-image: url('5.jpg'); /* Imagen de fondo */
+  background-image: url('../img/5.jpg'); /* Imagen de fondo */
   background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
   background-attachment: fixed; /* Fija el fondo mientras se hace scroll */
   background-position: center center;
